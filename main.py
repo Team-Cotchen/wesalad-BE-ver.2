@@ -14,5 +14,5 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"Hello" : "upstream"}
+    return {"Hello" : "upstream2"}
 
